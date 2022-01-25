@@ -1,0 +1,182 @@
+<!DOCTYPE html>
+<html lang="en">
+	<head>
+		<meta charset="utf-8" >
+		<title>Nyatet Duit by Raihanerli</title>
+		<meta name="viewport" content="width=device-width, initial-scale=1">
+				<link rel="icon" href="img/transbglogo.png" type="image/x-icon">
+		<!-- Google Fonts -->
+				<link href="https://fonts.googleapis.com/css?family=Nunito+Sans:100,200,300,400,600,500,700,800,900|Nunito:100,200,300,400,500,600,700,800,900&amp;subset=latin" rel="stylesheet">
+				<!-- Bootstrap 4.3.1 CSS -->
+		<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+		<!-- Slick 1.8.1 jQuery plugin CSS (Sliders) -->
+		<link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css"/>
+		<!-- Fancybox 3 jQuery plugin CSS (Open images and video in popup) -->
+		<link rel="stylesheet" href="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.css" />
+		<!-- AOS 2.3.1 jQuery plugin CSS (Animations) -->
+		<link href="https://unpkg.com/aos@2.3.1/dist/aos.css" rel="stylesheet">
+		<!-- FontAwesome CSS -->
+		<link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous">
+		<!-- Startup 3 CSS (Styles for all blocks) -->
+					<link href="css/style.css" rel="stylesheet" />
+				<!-- jQuery 3.3.1 -->
+		<script src="https://code.jquery.com/jquery-3.3.1.min.js"></script>
+			</head> 
+	<body>
+
+
+        <!--  Navbar  -->
+
+        <nav class="header_menu_3 pt-30 pb-30 mt-35">
+            <div class="container px-xl-0">
+                <div class="row justify-content-between align-items-baseline">
+                    <div class="col-xl-8 col-lg-7 d-flex align-items-baseline" data-aos-duration="600" data-aos="fade-down" data-aos-delay="450">
+                        <div class="mr-15 logo">Nyatet Duit</div>
+                        <div class="px-15 mr-5 dropdown">
+                            <a href="index.html" class="link color-heading f-18 medium mx-15">Home</a>
+                        </div>
+                        <a href="pengeluaran.html" class="link color-heading f-18 medium mx-15">Pengeluaran</a>
+                        <a href="pemasukan.html" class="link color-heading f-18 medium mx-15">Pemasukan</a>
+                        <a href="akun.html" class="link color-heading f-18 medium mx-15">Account</a>
+                    </div>
+                </div>
+            </div>
+        </nav>
+        <div class="container px-xl-0">
+            <div class="row justify-content-center">
+                <div class="col-lg-12 col-md-8">
+                    <div class="mb-3 mb-lg-5 logo d-block d-xl-none text-center text-lg-left logo_mobile">Nyatet Duit</div>
+                </div>
+            </div>
+        </div>
+
+
+        <!--  Pengeluaran -->
+          <div class="form-group col" data-aos-duration="600" data-aos="fade-down" data-aos-delay="450">
+        <form>
+            <div class="form-group col-md-6">
+              <label for="JumlahPengeluaran">Jumlah Pengeluaran</label>
+              <input type="number" class="form-control" id="JumlahPengeluaran" aria-describedby="jumlahHelp" placeholder="masukin disini gais!">
+              <small id="jumlahHelp" class="form-text text-muted">Tenang, gak bakal dibilang sombong kok ^^</small>
+            </div>
+            <div class="form-group col-md-6">
+                <label for="Kategori">Kategori</label>
+                <select id="Kategori" class="form-control">
+                  <option selected>Pilih</option>
+                  <option>Gaji</option>
+                  <option>Tabungan</option>
+                  <option>E-Wallet</option>
+                  <option>Belanja</option>
+                  <option>Lainnya...</option>
+                </select>
+              </div>
+              <div class="form-row col-md-6">
+                <div class="col-lg-3">
+                  <label for="Hari">Hari</label>
+                  <select id="pilihHari" class="form-control">
+                    <option selected>Pilih Hari</option>
+                    <option>Senin</option>
+                    <option>Selasa</option>
+                    <option>Rabu</option>
+                    <option>Kamis</option>
+                    <option>Jum'at</option>
+                    <option>Sabtu</option>
+                    <option>Minggu</option>
+                  </select>
+                </div>
+                <div class="col">
+                    <label for="Tanggal">Tanggal</label>
+                    <select id="pilihTanggal" class="form-control">
+                        <option selected>Pilih Tanggal</option>
+                        <option>1</option>
+                        <option>2</option>
+                        <option>3</option>
+                        <option>4</option>
+                        <option>5</option>
+                        <option>6</option>
+                        <option>7</option>
+                        <option>8</option>
+                        <option>9</option>
+                        <option>10</option>
+                        <option>11</option>
+                        <option>12</option>
+                        <option>13</option>
+                        <option>14</option>
+                        <option>15</option>
+                        <option>16</option>
+                        <option>17</option>
+                        <option>18</option>
+                        <option>19</option>
+                        <option>20</option>
+                        <option>21</option>
+                        <option>22</option>
+                        <option>23</option>
+                        <option>24</option>
+                        <option>25</option>
+                        <option>26</option>
+                        <option>27</option>
+                        <option>28</option>
+                        <option>29</option>
+                        <option>30</option>
+                        <option>31</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <label for="Bulan">Bulan</label>
+                    <select id="pilihBulan" class="form-control">
+                        <option selected>Pilih Bulan</option>
+                        <option>Januari</option>
+                        <option>Februari</option>
+                        <option>Maret</option>
+                        <option>April</option>
+                        <option>Mei</option>
+                        <option>Juni</option>
+                        <option>Juli</option>
+                        <option>Agustus</option>
+                        <option>September</option>
+                        <option>Oktober</option>
+                        <option>November</option>
+                        <option>Desember</option>
+                    </select>
+                </div>
+                <div class="col">
+                    <label for="Tahun">Tahun</label>
+                    <select id="pilihTahun" class="form-control">
+                        <option selected>Pilih Tahun</option>
+                        <option>2018</option>
+                        <option>2019</option>
+                        <option>2020</option>
+                        <option>2021</option>
+                        <option>2022</option>
+                    </select>
+                </div>
+                <div class="form-group col-md-6">
+                    <label for="Notes">Catatan</label>
+                    <input type="text" class="form-control" id="Notes" aria-describedby="notesHelp" placeholder="Catatan">
+                 </div>
+                </div>
+                <button type="submit" class="btn btn-primary">Submit</button>
+            </div>
+            
+          </form>
+        </div>
+
+
+          
+<!-- Bootstrap 4.3.1 JS -->
+<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/js/bootstrap.bundle.min.js"></script>
+<!-- Fancybox 3 jQuery plugin JS (Open images and video in popup) -->
+<script src="https://cdn.jsdelivr.net/gh/fancyapps/fancybox@3.5.7/dist/jquery.fancybox.min.js"></script>
+<!-- Google maps JS API -->
+<script type="text/javascript" src="https://maps.googleapis.com/maps/api/js?v=3&key=AIzaSyDP6Ex5S03nvKZJZSvGXsEAi3X_tFkua4U"></script>
+<!-- Slick 1.8.1 jQuery plugin JS (Sliders) -->
+<script type="text/javascript" src="https://cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+<!-- AOS 2.3.1 jQuery plugin JS (Animations) -->
+<script src="https://unpkg.com/aos@2.3.1/dist/aos.js"></script>
+<!-- Maskedinput jQuery plugin JS (Masks for input fields) -->
+<script src="js/jquery.maskedinput.min.js"></script>
+<!-- Startup 3 JS (Custom js for all blocks) -->
+<script src="js/script.js"></script>
+
+    </body>
+</html>
